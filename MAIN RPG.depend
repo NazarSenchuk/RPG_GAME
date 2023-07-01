@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1687612633 source:/home/nazar/Projects/c++/MAIN RPG/src/State.cpp
+	"State.h"
+
+1687636226 /home/nazar/Projects/c++/MAIN RPG/include/State.h
+	<vector>
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"SFML/Graphics.hpp"
+	"SFML/Window.hpp"
+	"SFML/System.hpp"
+	"SFML/Network.hpp"
+	"SFML/Audio.hpp"
+	<sstream>
+	<fstream>
+	<stack>
+
+1686415233 source:/home/nazar/Projects/c++/MAIN RPG/main.cpp
+	<SFML/Graphics.hpp>
+	"Game.h"
+	"State.h"
+	"Game.h"
+	"SFML/Graphics.hpp"
+	"SFML/Window.hpp"
+	"SFML/System.hpp"
+	"SFML/Network.hpp"
+	"SFML/Audio.hpp"
+	"GameState.h"
+
+1687467068 /home/nazar/Projects/c++/MAIN RPG/include/Game.h
+	"Game.h"
+	"SFML/Graphics.hpp"
+	"SFML/Window.hpp"
+	"SFML/System.hpp"
+	"SFML/Network.hpp"
+	"SFML/Audio.hpp"
+	"GameState.h"
+	<stack>
+
+1687943883 /home/nazar/Projects/c++/MAIN RPG/include/GameState.h
+	"State.h"
+	"Entity.h"
+	"Player.h"
+
+1687772654 source:/home/nazar/Projects/c++/MAIN RPG/src/Game.cpp
+	"Game.h"
+	"SFML/Graphics.hpp"
+	"SFML/Window.hpp"
+	"SFML/System.hpp"
+	"SFML/Network.hpp"
+	"SFML/Audio.hpp"
+	"GameState.h"
+	"MainMenuState.h"
+
+1688074668 source:/home/nazar/Projects/c++/MAIN RPG/src/GameState.cpp
+	"GameState.h"
+	"State.h"
+
+1688073862 /home/nazar/Projects/c++/MAIN RPG/include/Entity.h
+	"State.h"
+	"MovementComponent.h"
+	"AnimationComponent.h"
+
+1688073944 source:/home/nazar/Projects/c++/MAIN RPG/src/Entity.cpp
+	"Entity.h"
+	<AnimationComponent.h>
+
+1687947642 source:/home/nazar/Projects/c++/MAIN RPG/src/MainMenuState.cpp
+	"MainMenuState.h"
+	"GameState.h"
+
+1687467465 /home/nazar/Projects/c++/MAIN RPG/include/MainMenuState.h
+	"State.h"
+	"Button.h"
+
+1687002161 /home/nazar/Projects/c++/MAIN RPG/include/Button.h
+	"State.h"
+
+1687014309 source:/home/nazar/Projects/c++/MAIN RPG/src/Button.cpp
+	"Button.h"
+
+1688074352 /home/nazar/Projects/c++/MAIN RPG/include/Player.h
+	<Entity.h>
+
+1688074668 source:/home/nazar/Projects/c++/MAIN RPG/src/Player.cpp
+	"Player.h"
+
+1687948335 /home/nazar/Projects/c++/MAIN RPG/include/MovementComponent.h
+	<State.h>
+
+1687949216 source:/home/nazar/Projects/c++/MAIN RPG/src/MovementComponent.cpp
+	"MovementComponent.h"
+	<Entity.h>
+	<State.h>
+
+1688074668 /home/nazar/Projects/c++/MAIN RPG/include/AnimationComponent.h
+	<map>
+	<State.h>
+
+1688073170 source:/home/nazar/Projects/c++/MAIN RPG/src/AnimationComponent.cpp
+	"AnimationComponent.h"
+
